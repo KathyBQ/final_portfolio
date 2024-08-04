@@ -1,0 +1,112 @@
+body {
+    background-color: hsla(235, 18%, 13%, 0.894);
+    color: aliceblue;
+}
+#title {
+    padding: 3% 15%;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h2 {
+    padding: 7% 15%;
+    color: aliceblue;
+    font-family: 'Playwrite Cuba';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+em {
+    font-family: 'Playwrite Display';
+    color: #8f8f8f;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Playwrite Cuba';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 5% 5% 0;
+}
+
+/* Title Imgae */
+.title-image {
+    width: 50%;
+}
+
+/* Testimonials section for studdybuddy project */
+#testimonials {
+    background-color:#320935;
+    font-family: 'Playfair Display';
+    padding: 7% 15%;
+    text-align: center;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-image {
+    width: 100%;
+    margin: 10px;
+}
+
+/* dice project section */ 
+#dice {
+    font-family: 'Playfair Display';
+    padding: 7% 15%;
+    text-align: center;
+}
+.dice-image {
+    width: 100%;
+    margin: 10px;
+}
+
+/* cta */
+#cta {
+    background-color: rgb(18, 50, 101);
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading {
+    font-family: 'Font family of your choice';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* Media */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
